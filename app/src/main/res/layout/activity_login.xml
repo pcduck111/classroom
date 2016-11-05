@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.champ.myclass.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textSize="50dp" />
+        <EditText
+            android:id="@+id/edUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Username"/>
+        <EditText
+            android:id="@+id/edPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"/>
+        <Button
+            android:id="@+id/btLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="LOGIN" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:text="--OR--"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/btRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="REGISTER" />
+    </LinearLayout>
+</RelativeLayout>
