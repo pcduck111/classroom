@@ -22,23 +22,30 @@
             android:text="Register"
             android:textSize="50dp" />
         <EditText
-            android:id="@+id/edReUser"
+            android:id="@+id/etDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:hint="DisplayName"/>
+        <EditText
+            android:id="@+id/etReUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Username"/>
         <EditText
-            android:id="@+id/edRePass"
+            android:id="@+id/etPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"/>
+
         <EditText
-            android:id="@+id/edReCon"
+            android:id="@+id/etPassCon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password Confirm"/>
+
         <Button
-            android:id="@+id/btReRegis"
+            android:id="@+id/btnReRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
